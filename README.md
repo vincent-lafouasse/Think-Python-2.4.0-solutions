@@ -8,6 +8,10 @@ The book tells us to use "only the statements and other features [...] learned s
 
 If anybody is reading this (which I doubt), feel free to raise issues about my scripts.
 
+
+https://greenteapress.com/wp/think-python-2e/
+https://github.com/AllenDowney/ThinkPython2
+
 ```
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
