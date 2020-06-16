@@ -8,7 +8,7 @@ The book tells us to use "only the statements and other features [...] learned s
 
 If anybody is reading this (which I doubt), feel free to raise issues about my scripts.
 
-
+```
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
 
@@ -21,4 +21,5 @@ If anybody is reading this (which I doubt), feel free to raise issues about my s
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
-  0. You just DO WHAT THE FUCK YOU WANT TO.  
+  0. You just DO WHAT THE FUCK YOU WANT TO. 
+  ``` 
