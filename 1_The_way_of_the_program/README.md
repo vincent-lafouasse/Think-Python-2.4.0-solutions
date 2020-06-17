@@ -23,5 +23,4 @@ the interpreter as well as the output.
 
 - **Exercice 2**: missing
 
-- **Exercice statement**: copied and pasted but not proper LaTeX document, it's 
-just the body and so it will **not** compile.
+- **Exercice statement**: ready
