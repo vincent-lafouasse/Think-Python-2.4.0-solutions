@@ -5,7 +5,7 @@
 Now we are getting to more interesting stuff than just the Python interpreter.
 **Exercice 1** involves string manipulation, **Exercice 2** is writing a 
 program that repeats a function twice and **Exercice 3** involves *drawing* an
-ASCII grid using `+`s, `|`s and `-`s.
+ASCII grid using `+`, `|` and `-`.
 
 **Exercices 1** and **2** are easy so I did them in the interpreter. **Exercice 
 3** was annoying to do without `for` loops and also not general enough for my 

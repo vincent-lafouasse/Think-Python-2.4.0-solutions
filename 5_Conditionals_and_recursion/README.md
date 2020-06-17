@@ -9,7 +9,8 @@ recursion.
 module) and converting it into days, hours, minutes and seconds. This was a bit 
 boring so I added the extra challenge of computing the exact date after said 
 time has elapsed. This was way more of a hassle but it (*kinda*) works. I will 
-have to look further into the `time` module to optimize it.
+have to look further into the `time` module to optimize it. This may be more 
+readable using classes but I'm not familiar with those yet.
 
 **Exercice 2** involves checking if *Fermat’s Last Theorem* applies to 3 given 
 integers. **Exercice 3** involves checking if a triangle if valid, implicitely 

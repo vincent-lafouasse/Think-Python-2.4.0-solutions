@@ -13,8 +13,9 @@ using Tikz, which I have never used. I may ragequit at some point and just
 post a picture of a drawing.
 
 **Exercice 2** involves drawing pretty flowers, using the `arc` function. 
-I haven't done it because i) my `arc` function doesn't work and ii) I don't 
-understand quite yet the algorithm to draw those flowers. 
+I haven't done it because i) my `arc` function doesn't work exactly 
+the way it should and ii) I don't understand quite yet the algorithm to draw 
+those flowers. 
 
 **Exercice 3** involves drawing "turtle pies", which I did using an auxilliary 
 function that draws isoceles triangles.

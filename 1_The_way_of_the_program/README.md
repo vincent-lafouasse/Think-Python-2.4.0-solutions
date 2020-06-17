@@ -9,7 +9,7 @@ and are both rather basic.
 see what is allowed.
 
 **Exercice 2** is using the Python interpreter as a calculator, mainly using
-multiplication and division. We are asked to change units from min:sec to sec
+multiplication and division. We are asked to convert units from min:sec to sec
 etc. and to calculate a speed.
 
 I have done them in the interpreter and don't have a trace of it. I intend to 
@@ -24,4 +24,4 @@ the interpreter as well as the output.
 - **Exercice 2**: missing
 
 - **Exercice statement**: copied and pasted but not proper LaTeX document, it's 
-just the body and will **not** compile.
+just the body and so it will **not** compile.
