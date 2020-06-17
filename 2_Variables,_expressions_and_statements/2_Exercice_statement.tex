@@ -1,0 +1,127 @@
+\begin{exercise}
+\index{len function}
+\index{function!len}
+
+Write a function named \verb"right_justify" that takes a string
+named {\tt s} as a parameter and prints the string with enough
+leading spaces so that the last letter of the string is in column 70
+of the display.
+
+\begin{verbatim}
+>>> right_justify('monty')
+                                                                 monty
+\end{verbatim}
+
+Hint: Use string concatenation and repetition.  Also,
+Python provides a built-in function called {\tt len} that
+returns the length of a string, so the value of \verb"len('monty')" is 5.
+
+\end{exercise}
+
+
+\begin{exercise}
+\index{function object}
+\index{object!function}
+
+A function object is a value you can assign to a variable
+or pass as an argument.  For example, \verb"do_twice" is a function
+that takes a function object as an argument and calls it twice:
+
+\begin{verbatim}
+def do_twice(f):
+    f()
+    f()
+\end{verbatim}
+
+Here's an example that uses \verb"do_twice" to call a function
+named \verb"print_spam" twice.
+
+\begin{verbatim}
+def print_spam():
+    print('spam')
+
+do_twice(print_spam)
+\end{verbatim}
+
+\begin{enumerate}
+
+\item Type this example into a script and test it.
+
+\item Modify \verb"do_twice" so that it takes two arguments, a
+function object and a value, and calls the function twice,
+passing the value as an argument.
+
+\item Copy the definition of 
+\verb"print_twice" from earlier in this chapter to your script.
+
+\item Use the modified version of \verb"do_twice" to call
+\verb"print_twice" twice, passing \verb"'spam'" as an argument.
+
+\item Define a new function called 
+\verb"do_four" that takes a function object and a value
+and calls the function four times, passing the value
+as a parameter.  There should be only
+two statements in the body of this function, not four.
+
+\end{enumerate}
+
+Solution: \url{http://thinkpython2.com/code/do_four.py}.
+
+\end{exercise}
+
+
+
+\begin{exercise}
+
+Note: This exercise should be
+done using only the statements and other features we have learned so
+far.  
+
+\begin{enumerate}
+
+\item Write a function that draws a grid like the following:
+\index{grid}
+
+\begin{verbatim}
++ - - - - + - - - - +
+|         |         |
+|         |         |
+|         |         |
+|         |         |
++ - - - - + - - - - +
+|         |         |
+|         |         |
+|         |         |
+|         |         |
++ - - - - + - - - - +
+\end{verbatim}
+%
+Hint: to print more than one value on a line, you can print
+a comma-separated sequence of values:
+
+\begin{verbatim}
+print('+', '-')
+\end{verbatim}
+%
+By default, {\tt print} advances to the next line, but you
+can override that behavior and put a space at the end, like this:
+
+\begin{verbatim}
+print('+', end=' ')
+print('-')
+\end{verbatim}
+%
+The output of these statements is \verb"'+ -'" on the same line.
+The output from the next print statement would begin on the next line.
+
+\item Write a function that draws a similar grid
+with four rows and four columns.
+
+\end{enumerate}
+
+Solution: \url{http://thinkpython2.com/code/grid.py}.
+Credit: This exercise is based on an exercise in Oualline, {\em
+    Practical C Programming, Third Edition}, O'Reilly Media, 1997.
+
+\end{exercise}
+
