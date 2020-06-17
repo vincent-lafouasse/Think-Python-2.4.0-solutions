@@ -16,7 +16,7 @@ If I have the motivation, each chapter will have its own directory with :
 
 - The solutions, both pedestrian and *fancy*,
 
-- A README, which should contain commentaries and status on my solutions (something like not working/working/well written/commented)
+- A README, which should contain commentaries and status on my solutions (something like not working/working/optimized/commented)
 
 You may find more info on the book right here :
 https://greenteapress.com/wp/think-python-2e/
