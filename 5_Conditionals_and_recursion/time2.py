@@ -1,6 +1,11 @@
 import time
 import math
 
+# https://docs.python.org/3/library/time.html
+# The epoch is the point where the time starts, and is platform dependent. 
+# For Unix, the epoch is January 1, 1970, 00:00:00 (UTC).
+# To find out what the epoch is on a given platform, look at time.gmtime(0).
+
 def to_add():
     to_add = math.floor(time.time()) # i don't care for milliseconds
 
