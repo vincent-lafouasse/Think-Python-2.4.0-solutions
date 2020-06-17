@@ -1,5 +1,7 @@
 # Think-Python-3-solutions
 
+## Introduction
+
 Though I have some background in Python (as well as in Julia and a bit of C), I have decided to properly learn Python from the ground up with the book *Think Python How to Think Like a Computer Scientist* (2nd Edition, Version 2.4.0).
 
 I will be posting here the solutions that I come up with for the exercises.
@@ -8,7 +10,21 @@ The book tells us to use "only the statements and other features [...] learned s
 
 If anybody is reading this (which I doubt), feel free to raise issues about my scripts.
 
-# Structure
+
+## Progression Status
+
+- Chapter 1
+
+- Chapter 2
+
+- Chapter 3
+
+- Chapter 4
+
+- Chapter 5
+
+
+## Structure
 
 If I have the motivation, each chapter will have its own directory with :
 
@@ -18,11 +34,22 @@ If I have the motivation, each chapter will have its own directory with :
 
 - A README, which should contain commentaries and status on my solutions (something like not working/working/optimized/commented)
 
+
+## Information on the book 
+
 You may find more info on the book right here :
 https://greenteapress.com/wp/think-python-2e/
 
 And the source code here :
 https://github.com/AllenDowney/ThinkPython2
+
+
+## About me 
+
+I'm just a dude tryna learn Python yknow.
+
+
+## License 
 
 ```
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
