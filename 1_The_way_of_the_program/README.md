@@ -22,3 +22,6 @@ the interpreter as well as the output.
 - **Exercice 1**: missing
 
 - **Exercice 2**: missing
+
+- **Exercice statement**: copied and pasted but not proper LaTeX document, it's 
+just the body and will **not** compile.
