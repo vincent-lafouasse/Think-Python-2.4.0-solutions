@@ -4,12 +4,24 @@ Though I have some background in Python (as well as in Julia and a bit of C), I 
 
 I will be posting here the solutions that I come up with for the exercises.
 
-The book tells us to use "only the statements and other features [...] learned so far." sometimes. So far, I have used features not introduced (such as `for` loops). I will try to post both compliant solutions and the solutions i would write using "advanced" features (such as `for` loops).
+The book tells us to use "only the statements and other features [...] learned so far." sometimes. So far, I have used features not introduced (such as `for` loops). I will try to post both compliant (*pedestrian*) solutions and the solutions i would write using "advanced" features (such as `for` loops).
 
 If anybody is reading this (which I doubt), feel free to raise issues about my scripts.
 
+# Structure
 
+If I have the motivation, each chapter will have its own directory with :
+
+- The exercise statement directly taken from the book, as a TeX file, 
+
+- The solutions, both pedestrian and *fancy*,
+
+- A README, which should contain commentaries and status on my solutions (something like not working/working/well written/commented)
+
+You may find more info on the book right here :
 https://greenteapress.com/wp/think-python-2e/
+
+And the source code here :
 https://github.com/AllenDowney/ThinkPython2
 
 ```
