@@ -17,11 +17,12 @@ Note: we are dealing only with `void` functions so far.
 
 ## Status
 
-- **Exercice 1**: missing
+- **Exercice 1**: ready
 
-- **Exercice 2**: missing
+- **Exercice 2**: ready
 
-- **Exercice 3**: *fancy* version optimized (I think) but not commented, 
-pedestrian version missing
+- **Exercice 3**: 
+    - *fancy* version optimized (I think) but not commented 
+    - pedestrian version ready but perhaps needs more explaining
 
-- **Exercice statement**: missing
+- **Exercice statement**: ready except for Exercise 3

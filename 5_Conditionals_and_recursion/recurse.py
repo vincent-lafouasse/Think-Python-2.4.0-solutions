@@ -1,4 +1,0 @@
-def recurse():
-    recurse()
-
-recurse()
