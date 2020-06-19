@@ -4,8 +4,8 @@ no argument, such as print_spam
 """
 
 
-def do_twice(f, arg = None):
-    if arg == None:
+def do_twice(f, arg=None):
+    if arg is None:
         f()
         f()
     else:
@@ -13,7 +13,7 @@ def do_twice(f, arg = None):
         f(arg)
 
 
-def do_four(f, arg = None):
+def do_four(f, arg=None):
     do_twice(f, arg)
     do_twice(f, arg)
 
