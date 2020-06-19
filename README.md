@@ -37,12 +37,9 @@ If I have the motivation, each chapter will have its own directory with :
 
 ## Information on the book 
 
-You may find more info on the book right here :
-https://greenteapress.com/wp/think-python-2e/
-
-And the source code here :
-https://github.com/AllenDowney/ThinkPython2
-
+You may find more info on the book right [here](https://greenteapress.com/wp/think-python-2e/),
+its TeX source code [here](https://github.com/AllenDowney/ThinkPython2),
+as well as an online version [here](http://www.openbookproject.net/thinkcs/python/english2e/index.html).
 
 ## About me 
 
