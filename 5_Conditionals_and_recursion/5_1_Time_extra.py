@@ -64,6 +64,12 @@ def date():
     year = 1970
     month = 1
     day = 1
+    months_array = [
+                    "January", "February", "Mars", "April",
+                    "May", "June", "July", "August",
+                    "September", "October", "November", "December",
+                   ]
+    months = dict(enumerate(months_array, 1))
 
     days_to_add, hours, minutes, seconds = to_add()
 
@@ -71,7 +77,7 @@ def date():
 
     month, day = add_month(month, days_to_add, year)
 
-    return (year, month, day, hours, minutes, seconds)
+    return (year, months[month], day, hours, minutes, seconds)
 
 
 print(date())
