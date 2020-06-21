@@ -14,6 +14,7 @@ Similarly, `'lmao` results in a `SyntaxError: EOL while scanning string literal`
 3. You can use a minus sign to make a negative number like `-2`. What happens if you put a plus sign before a number? What about `2++2`?
 
 `+3` is understood to be `3` and evaluated as such. `2++2` is 2 + (+2) and is correctly evaluated to 4, just like `2+++2`.
+
 4. In math notation, leading zeroes are ok, as in `09`. What happens if you try this in Python ? What about `011`?
 
 - in Python 2: leading 0s are used to indicate that a number is in base 8 (octal number). That is why the expression `010` is evaluated to 1\*8^1 = 8 and `011` to 1\*8^1 + 1\*8^0 = 9. Meanwhile, `09` is not a valid token as `9` is not a valid octal number so we get a `SyntaxError: invalid token`.
